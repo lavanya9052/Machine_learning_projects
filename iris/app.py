@@ -7,9 +7,9 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 
 # Load the trained model and scaler (Assuming files are in the same directory)
-with open('D:\Lavanya\ml_tasks\iris .pkl', 'rb') as f:
+with open('iris .pkl', 'rb') as f:
     model = pickle.load(f)
-with open('D:\Lavanya\ml_tasks\scaling_data .pkl', 'rb') as f:
+with open('scaling_data .pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 @app.route('/')
