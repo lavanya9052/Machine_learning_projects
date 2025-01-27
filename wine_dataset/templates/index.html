@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Quality Prediction</title>
+</head>
+<body>
+    <h1>Wine Quality Prediction</h1>
+
+    <form action="/predict" method="POST">
+        <label for="alcohol_5th">Alcohol_5th:</label>
+        <input type="number" id="alcohol_5th" name="alcohol_5th" step="0.01" required><br><br>
+
+        <label for="malic_acid_5th">Malic Acid_5th:</label>
+        <input type="number" id="malic_acid_5th" name="malic_acid_5th" step="0.01" required><br><br>
+
+        <label for="alcalinity_of_ash_5th">Alcalinity of Ash_5th:</label>
+        <input type="number" id="alcalinity_of_ash_5th" name="alcalinity_of_ash_5th" step="0.01" required><br><br>
+
+        <label for="total_phenols_5th">Total Phenols_5th:</label>
+        <input type="number" id="total_phenols_5th" name="total_phenols_5th" step="0.01" required><br><br>
+
+        <label for="flavanoids_5th">Flavanoids_5th:</label>
+        <input type="number" id="flavanoids_5th" name="flavanoids_5th" step="0.01" required><br><br>
+
+        <label for="proanthocyanins_5th">Proanthocyanins_5th:</label>
+        <input type="number" id="proanthocyanins_5th" name="proanthocyanins_5th" step="0.01" required><br><br>
+
+        <label for="color_intensity_5th">Color Intensity_5th:</label>
+        <input type="number" id="color_intensity_5th" name="color_intensity_5th" step="0.01" required><br><br>
+
+        <label for="od280_od315_of_diluted_wines_5th">OD280/OD315 of Diluted Wines_5th:</label>
+        <input type="number" id="od280_od315_of_diluted_wines_5th" name="od280_od315_of_diluted_wines_5th" step="0.01" required><br><br>
+
+        <label for="proline_5th">Proline_5th:</label>
+        <input type="number" id="proline_5th" name="proline_5th" step="0.01" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    <h3><strong>{{ prediction_text }}</strong></h3>
+
+</body>
+</html>
