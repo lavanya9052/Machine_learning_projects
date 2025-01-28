@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Breast Cancer Prediction</title>
+</head>
+<body>
+    <h1>Breast Cancer Prediction</h1>
+
+
+    <form method="POST" action="/predict">
+
+
+    <h1>Enter Feature Values</h1>
+
+    <label for="mean_radius_5thtrim">Mean Radius 5th Trim:</label>
+    <input type="number" id="mean_radius_5thtrim" name="mean_radius_5thtrim" required><br>
+
+    <label for="mean_texture_5thtrim">Mean Texture 5th Trim:</label>
+    <input type="number" id="mean_texture_5thtrim" name="mean_texture_5thtrim" required><br>
+
+    <label for="mean_perimeter_5thtrim">Mean Perimeter 5th Trim:</label>
+    <input type="number" id="mean_perimeter_5thtrim" name="mean_perimeter_5thtrim" required><br>
+
+    <label for="mean_area_5thtrim">Mean Area 5th Trim:</label>
+    <input type="number" id="mean_area_5thtrim" name="mean_area_5thtrim" required><br>
+
+    <label for="mean_smoothness_5thtrim">Mean Smoothness 5th Trim:</label>
+    <input type="number" id="mean_smoothness_5thtrim" name="mean_smoothness_5thtrim" required><br>
+
+    <label for="mean_compactness_5thtrim">Mean Compactness 5th Trim:</label>
+    <input type="number" id="mean_compactness_5thtrim" name="mean_compactness_5thtrim" required><br>
+
+    <label for="mean_concavity_5thtrim">Mean Concavity 5th Trim:</label>
+    <input type="number" id="mean_concavity_5thtrim" name="mean_concavity_5thtrim" required><br>
+
+    <label for="mean_concave_points_5thtrim">Mean Concave Points 5th Trim:</label>
+    <input type="number" id="mean_concave_points_5thtrim" name="mean_concave_points_5thtrim" required><br>
+
+    <label for="mean_symmetry_5thtrim">Mean Symmetry 5th Trim:</label>
+    <input type="number" id="mean_symmetry_5thtrim" name="mean_symmetry_5thtrim" required><br>
+
+    <label for="mean_fractal_dimension_5thtrim">Mean Fractal Dimension 5th Trim:</label>
+    <input type="number" id="mean_fractal_dimension_5thtrim" name="mean_fractal_dimension_5thtrim" required><br>
+
+    <label for="radius_error_5thtrim">Radius Error 5th Trim:</label>
+    <input type="number" id="radius_error_5thtrim" name="radius_error_5thtrim" required><br>
+
+    <label for="texture_error_5thtrim">Texture Error 5th Trim:</label>
+    <input type="number" id="texture_error_5thtrim" name="texture_error_5thtrim" required><br>
+
+    <label for="perimeter_error_5thtrim">Perimeter Error 5th Trim:</label>
+    <input type="number" id="perimeter_error_5thtrim" name="perimeter_error_5thtrim" required><br>
+
+    <label for="area_error_5thtrim">Area Error 5th Trim:</label>
+    <input type="number" id="area_error_5thtrim" name="area_error_5thtrim" required><br>
+
+    <label for="smoothness_error_5thtrim">Smoothness Error 5th Trim:</label>
+    <input type="number" id="smoothness_error_5thtrim" name="smoothness_error_5thtrim" required><br>
+
+    <label for="compactness_error_5thtrim">Compactness Error 5th Trim:</label>
+    <input type="number" id="compactness_error_5thtrim" name="compactness_error_5thtrim" required><br>
+
+    <label for="concavity_error_5thtrim">Concavity Error 5th Trim:</label>
+    <input type="number" id="concavity_error_5thtrim" name="concavity_error_5thtrim" required><br>
+
+    <label for="concave_points_error_5thtrim">Concave Points Error 5th Trim:</label>
+    <input type="number" id="concave_points_error_5thtrim" name="concave_points_error_5thtrim" required><br>
+
+    <label for="symmetry_error_5thtrim">Symmetry Error 5th Trim:</label>
+    <input type="number" id="symmetry_error_5thtrim" name="symmetry_error_5thtrim" required><br>
+
+    <label for="fractal_dimension_error_5thtrim">Fractal Dimension Error 5th Trim:</label>
+    <input type="number" id="fractal_dimension_error_5thtrim" name="fractal_dimension_error_5thtrim" required><br>
+
+    <label for="worst_radius_5thtrim">Worst Radius 5th Trim:</label>
+    <input type="number" id="worst_radius_5thtrim" name="worst_radius_5thtrim" required><br>
+
+    <label for="worst_texture_5thtrim">Worst Texture 5th Trim:</label>
+    <input type="number" id="worst_texture_5thtrim" name="worst_texture_5thtrim" required><br>
+
+    <label for="worst_perimeter_5thtrim">Worst Perimeter 5th Trim:</label>
+    <input type="number" id="worst_perimeter_5thtrim" name="worst_perimeter_5thtrim" required><br>
+
+    <label for="worst_area_5thtrim">Worst Area 5th Trim:</label>
+    <input type="number" id="worst_area_5thtrim" name="worst_area_5thtrim" required><br>
+
+    <label for="worst_smoothness_5thtrim">Worst Smoothness 5th Trim:</label>
+    <input type="number" id="worst_smoothness_5thtrim" name="worst_smoothness_5thtrim" required><br>
+
+    <label for="worst_compactness_5thtrim">Worst Compactness 5th Trim:</label>
+    <input type="number" id="worst_compactness_5thtrim" name="worst_compactness_5thtrim" required><br>
+
+    <label for="worst_concavity_5thtrim">Worst Concavity 5th Trim:</label>
+    <input type="number" id="worst_concavity_5thtrim" name="worst_concavity_5thtrim" required><br>
+
+    <label for="worst_concave_points_5thtrim">Worst Concave Points 5th Trim:</label>
+    <input type="number" id="worst_concave_points_5thtrim" name="worst_concave_points_5thtrim" required><br>
+
+    <label for="worst_symmetry_5thtrim">Worst Symmetry 5th Trim:</label>
+    <input type="number" id="worst_symmetry_5thtrim" name="worst_symmetry_5thtrim" required><br>
+
+    <label for="worst_fractal_dimension_5thtrim">Worst Fractal Dimension 5th Trim:</label>
+    <input type="number" id="worst_fractal_dimension_5thtrim" name="worst_fractal_dimension_5thtrim" required><br>
+
+    <button onclick="submitForm()">Submit</button>
+    </form>
+    <br>
+        <br>
+
+        <h3><strong>{{ prediction_text }}</strong></h3>
+
+        <br>
+        <br>
+</body>
+</html>
